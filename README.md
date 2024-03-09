@@ -26,4 +26,4 @@ I am a passionate web developer with expertise in creating seamless and visually
 
 ## Getting Started
 
-To view my portfolio and projects, simply visit [portfolio link]. Feel free to explore the code and project details.
+To view my portfolio and projects, simply visit [portfolio link](https://dossa-hasan.github.io/HTMLCSSJSProfolio/). Feel free to explore the code and project details.
