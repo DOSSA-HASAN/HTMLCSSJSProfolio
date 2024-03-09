@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3347965def.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black">
+    <nav id="navigation" class="m-w-1200 flex justify-between align-center">
+        <div class="logo">
+            <p class="text-purple"><span class="purple-circ">Ha</span>san</p>
+        </div>
+
+        <div class="nav-links flex justify-between">
+            <a href="http://" class="link text-white">HOME<div class="border-bottom"></div></a>
+            <a href="http://" class="link text-white">ABOUT ME<div class="border-bottom"></div></a>
+            <a href="http://" class="link text-white">PROJECTS<div class="border-bottom"></div></a>
+            <a href="http://" class="link text-white">CONTACT ME<div class="border-bottom"></div></a>
+        </div>
+
+        <div class="flex align-center">
+            <div class="cv-button-container">
+                <a href="cv.pdf" target="_blank" class="cv-button" id="btn">DOWNLOAD CV</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-lightbulb text-white" id="themeButton"></i>
+            </div>
+        </div>
+
+
+        <div class="mobile-menu">
+            <i class="fa-solid fa-bars text-white" id="menuButton"></i>
+        </div>
+
+        
+    </nav>
+
+    <div class="mobile-links flex flex-col hidden slideIn">
+        <a href="http://" class="link text-white">HOME<div class="border-bottom"></div></a>
+        <a href="http://" class="link text-white">ABOUT ME<div class="border-bottom"></div></a>
+        <a href="http://" class="link text-white">PROJECTS<div class="border-bottom"></div></a>
+        <a href="http://" class="link text-white">CONTACT ME<div class="border-bottom"></div></a>
+    </div>
+
+    <section id="hero" class="m-w-1200 flex justify-between align-center">
+        <main>
+            <p class="text-white i-am">I am</p>
+            <p class="name purple-style">MUHAMMAD HASAN</p>
+            <H1 class="role">FRONTEND <span class="text-white">DEVELOPER</span></H1>
+            <p class="text-white role-description">
+                Innovative web developer specializing in design-to-code conversion, crafting seamless digital solutions with a user-centric approach.</p>
+            <a href="mailto: hassandossa5.0@gmail.com" class="hire purple-style">HIRE ME</a>
+        </main>
+
+        <figure id="hero-img">
+            <img src="images/hero-dark.png" alt="" srcset="">
+        </figure>
+    </section>
+
+    <section class="m-w-1200 flex justify-between align-center" id="about">
+        <figure id="skills-img">
+            <img src="images/skills-dark.png" alt="" srcset="">
+        </figure>
+
+        <main class="text-white about-cont">
+            <h6 class="">ABOUT ME</h6>
+            <p>Why You Hire Me</p>
+            <p>As a web developer proficient in HTML, CSS, and JavaScript, I specialize in efficiently translating designs into functional websites. What distinguishes me is the ability to add that extra touch of innovation, be it through interactive features, responsive design, or an enhanced user experience. Choosing me means choosing a dedicated partner to transform ideas into impactful online realities.</p>
+            <article class="flex flex-col skill-cont">
+                <label for="html">HTML</label>
+                <div class="range" id="html">
+                    <div class="progress flex align-center">
+                        <div class="thumb-img flex align-center">
+                            <img src="images/thumb.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <label for="css">CSS</label>
+                <div class="range" id="css">
+                    <div class="progress flex align-center css">
+                        <div class="thumb-img flex align-center">
+                            <img src="images/thumb.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <label for="jas">JavaScript</label>
+                <div class="range" id="jas">
+                    <div class="progress flex align-center js">
+                        <div class="thumb-img flex align-center">
+                            <img src="images/thumb.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <label for="responsive">Responsive</label>
+                <div class="range" id="responsive">
+                    <div class="progress flex align-center responsive">
+                        <div class="thumb-img flex align-center">
+                            <img src="images/thumb.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </section>
+
+    <section class="m-w-1200  flex flex-col justify-center align-center text-white" id="services">
+        <h6>MY SERVICES</h6>
+        <p>The Services I Provide</p>
+
+        <main class="services">
+            <article class="service-cont">
+                <figure class="pentagon flex align-center justify-center ">
+                    <div class="service"><img src="images/purple-pentagon.png" alt=""><i class="fa-solid fa-code"></i></div>
+                <figure>
+                <div class="service-text">
+                    <p>Web Development</p>
+                    <p>As a web developer, I turn designs into seamless, responsive websites. With expertise in HTML, CSS, and JavaScript, I create visually stunning and functional online experiences. Let's bring your ideas to life through clean code and innovative design</p>
+                </div>
+            </article>
+            <article class="service-cont">
+                <figure class="pentagon flex align-center justify-center">
+                    <div class="service"><img src="images/purple-pentagon.png" alt=""><i class="fa-solid fa-tablet"></i></div>
+                <figure>
+                <div class="service-text">
+                    <p>Responsive Design</p>
+                    <p >Creating visually stunning websites that adapt effortlessly to diverse devices, ensuring a flawless user experience across all screens.I create designs that respond dynamically to different viewing environments. Ensuring users enjoy a consistent and engaging experience</p>
+                </div>
+            </article>
+
+            <article class="service-cont">
+                <figure class="pentagon flex align-center justify-center">
+                    <div class="service"><img src="images/purple-pentagon.png" alt=""><i class="fa-brands fa-figma"></i></div>
+                <figure>
+                <div class="service-text">
+                    <p>Design-to-Code Conversion</p>
+                    <p>Expertly translating creative design concepts into clean, functional code, ensuring seamless integration between visual aesthetics and technical execution.</p>
+                </div>
+            </article>
+            
+            <article class="service-cont">
+                <figure class="pentagon flex align-center justify-center">
+                    <div class="service"><img src="images/purple-pentagon.png" alt=""><i class="fa-solid fa-code"></i></div>
+                <figure>
+                <div class="service-text">
+                    <p>Efficient Code Architect</p>
+                    <p>Proficient in HTML, CSS, and JavaScript, I specialize in translating design concepts into efficient and functional code. My skills extend to responsive web development, ensuring a seamless user experience across various devices. With a knack for innovation, I go beyond the basics, adding that extra touch to elevate your online presence.</p>
+                </div>
+            </article>
+        </main>
+    </section>
+
+    <section class="m-w-1200 text-white" id="projects">
+        <h6>PORTFOLIO</h6>
+        <div class="project-link flex justify-between">
+            <p>Latest Projects</p>
+            <a href="https://github.com/DOSSA-HASAN?tab=repositories" target="_blank" class="flex justify-center align-center">GitHub</a>
+        </div>
+        <p>Explore the captivating world of cutting-edge UI/UX designsthat redefine digital experiences, showcasing our
+            innovative solutions and inspiring creative journeys.</p>
+            <!-- //class="flex justify- align-center" -->
+        <main class="flex ">
+            <div class="project" >
+                <figure>
+                    <img src="images/project01.png" alt="" srcset="">
+                </figure>
+            </div>
+
+            <div class="project">
+                <figure>
+                    <img src="images/project02.png" alt="" srcset="">
+                </figure>
+            </div>
+
+            <div class="project">
+                <figure>
+                    <img src="images/project03.png" alt="" srcset="">
+                </figure>
+            </div>            
+        </main>
+    </section>
+
+    <footer id="footer" class="text-white">
+        <h6><a href="mailto:hassandossa5.0@gmail.com" class="text-white">CONTACT ME</a></h6>
+        <p class="text-purple">Lets Make Something Together</p>
+        <p>Connect with me effortlessly! Click the "Contact Me" button to reach out and let's discuss how we can 
+            transform your digital experiences into unforgettable journeys.
+        </p>
+
+        <div class="cv-button-container">
+            <a href="cv.pdf" target="_blank" class="cv-button" id="btn">DOWNLOAD CV</a>
+        </div>
+
+        <label for="email">Email Address</label>
+        <p id="email">hassandossa5.0@gmail.com</p>
+
+        <div class="logo">
+            <p class="text-purple"><span class="purple-circ text-white">Ha</span>san</p>
+        </div>
+
+        <div class="copyright flex align-center justify-center">© 2024 Hasan All Rights Reserved , Inc.</div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
